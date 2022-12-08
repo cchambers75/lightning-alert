@@ -1,0 +1,21 @@
+{
+	"name": "dtn-backend-assessment",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "DTN Backend Assessment",
+	"main": "index.js",
+	"scripts": {
+		"test": "vitest",
+		"build": "tsc --build"
+	},
+	"author": "Curtis Chambers",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^18.11.11",
+		"typescript": "^4.9.3",
+		"vitest": "^0.25.5"
+	},
+	"dependencies": {
+		"zod": "^3.19.1"
+	}
+}
